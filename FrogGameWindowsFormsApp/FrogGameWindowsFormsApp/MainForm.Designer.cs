@@ -51,47 +51,51 @@
             // LeftPictureBox1
             // 
             this.LeftPictureBox1.Image = global::FrogGameWindowsFormsApp.Properties.Resources.лягушкаЛево;
-            this.LeftPictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.LeftPictureBox1.Location = new System.Drawing.Point(0, 0);
             this.LeftPictureBox1.Name = "LeftPictureBox1";
             this.LeftPictureBox1.Size = new System.Drawing.Size(110, 110);
             this.LeftPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LeftPictureBox1.TabIndex = 0;
             this.LeftPictureBox1.TabStop = false;
+            this.LeftPictureBox1.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // LeftPictureBox2
             // 
             this.LeftPictureBox2.Image = global::FrogGameWindowsFormsApp.Properties.Resources.лягушкаЛево;
-            this.LeftPictureBox2.Location = new System.Drawing.Point(117, 0);
+            this.LeftPictureBox2.Location = new System.Drawing.Point(110, 0);
             this.LeftPictureBox2.Name = "LeftPictureBox2";
             this.LeftPictureBox2.Size = new System.Drawing.Size(110, 110);
             this.LeftPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LeftPictureBox2.TabIndex = 1;
             this.LeftPictureBox2.TabStop = false;
+            this.LeftPictureBox2.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // LeftPictureBox3
             // 
             this.LeftPictureBox3.Image = global::FrogGameWindowsFormsApp.Properties.Resources.лягушкаЛево;
-            this.LeftPictureBox3.Location = new System.Drawing.Point(233, 0);
+            this.LeftPictureBox3.Location = new System.Drawing.Point(220, 0);
             this.LeftPictureBox3.Name = "LeftPictureBox3";
             this.LeftPictureBox3.Size = new System.Drawing.Size(110, 110);
             this.LeftPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LeftPictureBox3.TabIndex = 2;
             this.LeftPictureBox3.TabStop = false;
+            this.LeftPictureBox3.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // LeftPictureBox14
             // 
             this.LeftPictureBox14.Image = global::FrogGameWindowsFormsApp.Properties.Resources.лягушкаЛево;
-            this.LeftPictureBox14.Location = new System.Drawing.Point(349, 0);
+            this.LeftPictureBox14.Location = new System.Drawing.Point(330, 0);
             this.LeftPictureBox14.Name = "LeftPictureBox14";
             this.LeftPictureBox14.Size = new System.Drawing.Size(110, 110);
             this.LeftPictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LeftPictureBox14.TabIndex = 3;
             this.LeftPictureBox14.TabStop = false;
+            this.LeftPictureBox14.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // emptyPictureBox
             // 
             this.emptyPictureBox.Image = global::FrogGameWindowsFormsApp.Properties.Resources.ПустаяКувшика;
-            this.emptyPictureBox.Location = new System.Drawing.Point(465, 0);
+            this.emptyPictureBox.Location = new System.Drawing.Point(440, 0);
             this.emptyPictureBox.Name = "emptyPictureBox";
             this.emptyPictureBox.Size = new System.Drawing.Size(110, 110);
             this.emptyPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -101,48 +105,52 @@
             // rightPictureBox1
             // 
             this.rightPictureBox1.Image = global::FrogGameWindowsFormsApp.Properties.Resources.ЛягушкаПраво;
-            this.rightPictureBox1.Location = new System.Drawing.Point(581, 0);
+            this.rightPictureBox1.Location = new System.Drawing.Point(550, 0);
             this.rightPictureBox1.Name = "rightPictureBox1";
             this.rightPictureBox1.Size = new System.Drawing.Size(110, 110);
             this.rightPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rightPictureBox1.TabIndex = 5;
             this.rightPictureBox1.TabStop = false;
+            this.rightPictureBox1.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // rightPictureBox2
             // 
             this.rightPictureBox2.Image = global::FrogGameWindowsFormsApp.Properties.Resources.ЛягушкаПраво;
-            this.rightPictureBox2.Location = new System.Drawing.Point(697, 0);
+            this.rightPictureBox2.Location = new System.Drawing.Point(660, 0);
             this.rightPictureBox2.Name = "rightPictureBox2";
             this.rightPictureBox2.Size = new System.Drawing.Size(110, 110);
             this.rightPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rightPictureBox2.TabIndex = 6;
             this.rightPictureBox2.TabStop = false;
+            this.rightPictureBox2.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // rightPictureBox3
             // 
             this.rightPictureBox3.Image = global::FrogGameWindowsFormsApp.Properties.Resources.ЛягушкаПраво;
-            this.rightPictureBox3.Location = new System.Drawing.Point(813, 0);
+            this.rightPictureBox3.Location = new System.Drawing.Point(770, 0);
             this.rightPictureBox3.Name = "rightPictureBox3";
             this.rightPictureBox3.Size = new System.Drawing.Size(110, 110);
             this.rightPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rightPictureBox3.TabIndex = 7;
             this.rightPictureBox3.TabStop = false;
+            this.rightPictureBox3.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // rightPictureBox4
             // 
             this.rightPictureBox4.Image = global::FrogGameWindowsFormsApp.Properties.Resources.ЛягушкаПраво;
-            this.rightPictureBox4.Location = new System.Drawing.Point(929, 0);
+            this.rightPictureBox4.Location = new System.Drawing.Point(880, 0);
             this.rightPictureBox4.Name = "rightPictureBox4";
             this.rightPictureBox4.Size = new System.Drawing.Size(110, 110);
             this.rightPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rightPictureBox4.TabIndex = 8;
             this.rightPictureBox4.TabStop = false;
+            this.rightPictureBox4.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 198);
+            this.ClientSize = new System.Drawing.Size(1000, 198);
             this.Controls.Add(this.rightPictureBox4);
             this.Controls.Add(this.rightPictureBox3);
             this.Controls.Add(this.rightPictureBox2);
